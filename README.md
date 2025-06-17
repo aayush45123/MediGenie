@@ -98,19 +98,19 @@ MediGenie/
 
 ## 📷 Screenshots
 
-### 🩺 Chatbot Interface  
+###  
 ![Chatbot](images/Screenshot%202025-05-06%20120723.png)
 
-### 👨‍⚕️ Doctor Booking Page  
+### 
 ![Doctor Booking](images/Screenshot%202025-05-06%20120756.png)
 
-### 📅 Appointment Schedule  
+###  
 ![Schedule](images/Screenshot%202025-05-06%20120818.png)
 
-### 🔒 Login Page  
+###  
 ![Login](images/Screenshot%202025-05-06%20120855.png)
 
-### 🏠 Homepage Design  
+###   
 ![Homepage](images/Screenshot%202025-05-06%20120932.png)
 
 
