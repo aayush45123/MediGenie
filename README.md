@@ -96,9 +96,23 @@ MediGenie/
 
 ---
 
-## 📷 Screenshots (Optional)
+## 📷 Screenshots
 
-> Add screenshots of the chatbot interface, doctor list, and appointment form here.
+### 🩺 Chatbot Interface
+![Chatbot](images/Screenshot 2025-05-06 120723.png)
+
+### 👨‍⚕️ Doctor Booking Page
+![Doctor Booking](images/Screenshot 2025-05-06 120756.png)
+
+### 📅 Appointment Schedule
+![Schedule](images/Screenshot 2025-05-06 120818.png)
+
+### 🔒 Login Page
+![Login](images/Screenshot 2025-05-06 120855.png)
+
+### 🏠 Homepage Design
+![Homepage](images/Screenshot 2025-05-06 120932.png)
+
 
 ---
 
