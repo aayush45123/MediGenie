@@ -1,109 +1,115 @@
-Medical Chatbot with Doctor Appointment System
-A comprehensive medical chatbot application that provides disease information and appointment booking with Somaiya doctors.
-Features
+# 🩺 MediGenie – AI Powered Medical Chatbot
 
-Medical Information: Get information about various diseases and conditions using the Gemini API
-Predefined Disease Database: Access a curated Python dictionary of common diseases and their details
-Doctor Appointment System: Book appointments with Somaiya doctors through an intuitive interface
-User-Friendly Interface: Easy-to-navigate design for all users
+**MediGenie** is an intelligent medical assistant that combines AI chatbot functionality with a complete doctor appointment system. It helps users get instant answers to health-related questions and book appointments with Somaiya doctors – all in one platform.
 
-Technologies Used
+---
 
-Python
-Flask and Flask-CORS for the web framework and API
-Google Generative AI (Gemini API) for chatbot intelligence
-Python dictionaries for predefined disease database
-HTML, CSS, JavaScript for the frontend
+## 💡 Features
 
-Installation
-bash# Clone the repository
-git clone https://github.com/your-username/medical-chatbot.git
+- 🤖 Chatbot powered by Google's Gemini API
+- 📚 Predefined disease detection using Python dictionary
+- 🩺 Book appointments with Somaiya doctors
+- 👨‍⚕️ View doctors, their profiles, schedules
+- 🎤 Audio input for health questions (Speech to Text)
+- 🎙 Text-to-Speech replies from the bot
+- 🖥 Fully responsive frontend UI in pure HTML, CSS, and JS
+- 🧠 Fast, intelligent, and context-aware responses
 
-# Navigate to the project directory
-cd medical-chatbot
+---
 
-# Install dependencies
-pip install flask flask_cors google-generativeai
+## 🛠 Tech Stack
 
-# Set up environment variables
-# Create a .env file and add your Gemini API key:
-# GEMINI_API_KEY=your_api_key_here
+- **Frontend**: HTML5, CSS3, JavaScript
+- **Backend**: Python, Flask
+- **AI Integration**: Gemini API (`google-generativeai`)
+- **Database**: MySQL (for local appointment storage)
+- **Other Tools**: Flask-CORS, pyttsx3, SpeechRecognition
 
-# Run the application
-python backend/app.py
-Usage
+---
 
-Launch the application by running the Flask backend
-python backend/app.py
+## 🚀 How to Run Locally
 
-Open frontend/index.html in your browser or navigate to the localhost URL provided by Flask
-Choose between disease information or doctor appointment booking from the homepage
-For disease information:
+### 🧬 Clone the Repository
 
-Navigate to the chatbot section
-Type symptoms or disease name
-Review the information provided by the Gemini-powered chatbot
+```bash
+git clone https://github.com/yourusername/MediGenie-AI-POWERED-MEDICAL-CHATBOT.git
+cd MediGenie-AI-POWERED-MEDICAL-CHATBOT
+```
 
+### 📦 Install Dependencies
 
-For doctor appointments:
+```bash
+pip install flask flask_cors google-generativeai pyttsx3 SpeechRecognition mysql-connector-python
+```
 
-Browse the available Somaiya doctors
-View doctor profiles and specialties
-Choose a suitable time slot
-Fill in your details
-Confirm your appointment
+### 🔑 Add Gemini API Key
 
+Edit `backend/responses.py` and replace:
 
+```python
+GEMINI_API_KEY = "your_api_key_here"
+```
 
-Project Structure
-MINIPROJECT/
-├── .vscode/                  # VS Code configuration
-├── backend/                  # Backend Python files
-│   ├── __pycache__/          # Python cache
-│   ├── app.py                # Main Flask application
-│   ├── responses.py          # Response handling
-│   └── temp_audio.wav        # Temporary audio file
-└── frontend/                 # Frontend files
-    ├── aboutus/              # About us page
-    ├── assets/               # Static assets
-    ├── chatbot/              # Chatbot interface
-    ├── doctor/               # Doctor section
-    ├── doctors_lists/        # List of doctors
-    ├── doctors_profile/      # Doctor profiles
-    ├── doctorsimg/           # Doctor images
-    ├── homepage/             # Homepage
-    ├── login/                # Login page
-    ├── index.html            # Main HTML file
-    ├── script.js             # JavaScript
-    └── style.css             # CSS styling
+### ▶ Start the Flask App
 
+```bash
+cd backend
+python app.py
+```
 
-Screenshots
+Then open `http://localhost:5000` in your browser.
 
-![image](https://github.com/user-attachments/assets/2e8af5b2-0b30-4de9-a21f-b43dc15b32a8)
-![image](https://github.com/user-attachments/assets/4488917b-24a6-4959-9fcb-f17a4be65f8a)
-![image](https://github.com/user-attachments/assets/018dd072-0ec7-4a24-a91b-ce250784503d)
-![image](https://github.com/user-attachments/assets/af077775-1807-4736-a583-b0950c431828)
-![image](https://github.com/user-attachments/assets/25538e92-78e9-41b6-86e2-85593a23a709)
-![image](https://github.com/user-attachments/assets/c49c5fc8-4800-4951-a0fe-fed395e1d97e)
-![image](https://github.com/user-attachments/assets/0687945d-7ad2-44e3-989d-0054c995dd9e)
+---
 
+## 🗂 Folder Structure
 
-Future Enhancements
+```bash
+MediGenie/
+├── backend/
+│   ├── app.py
+│   ├── responses.py
+│   └── temp_audio.wav
+│
+├── frontend/
+│   ├── index.html
+│   ├── script.js
+│   ├── style.css
+│   ├── login/
+│   ├── chatbot/
+│   ├── doctor/
+│   ├── doctors_lists/
+│   ├── doctors_profile/
+│   ├── doctorsImg/
+│   ├── aboutus/
+│   └── homepage/
+│
+└── README.md
+```
 
-Integration with electronic health records
-Multilingual support
-Mobile application development
-Advanced symptom analysis
-Telemedicine features
+---
 
-Contributors
-Aayush Bharda
+## 📌 Important Notes
 
+- This project is for **educational purposes only** and does not provide real medical advice.
+- Gemini API is used for demo intelligence — not for diagnosis.
+- Appointments are for simulated Somaiya doctor data.
 
-License
-This project is licensed under the MIT License.
-Acknowledgments
+---
 
-Somaiya Hospital for providing doctor information
-Gemini API for powering the chatbot functionality
+## 📷 Screenshots (Optional)
+
+> Add screenshots of the chatbot interface, doctor list, and appointment form here.
+
+---
+
+## 🧑‍💻 Developer
+
+**Aayush Bharda**  
+Mini Project @ K.J. Somaiya Institute  
+🔗 GitHub: [aayush45123](https://github.com/aayush45123)
+
+---
+
+## 📄 License
+
+This project is open source and available under the [MIT License](LICENSE).
