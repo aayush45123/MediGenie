@@ -12,10 +12,10 @@ from responses import get_disease_info
 
 app = Flask(__name__)
 CORS(app, supports_credentials=True, origins=["http://localhost:5000", "http://127.0.0.1:5000"])  # More specific CORS settings
-app.secret_key = "0x000002082528B890"
+app.secret_key = ""
 
 # Configure Google Gemini AI
-API_KEY = 'AIzaSyBK-oHzyGQsrLR3ikZg5QLEdVaeSo7C_yo'
+API_KEY = ''
 genai.configure(api_key=API_KEY)
 
 # Initialize the Gemini model
